@@ -9,3 +9,10 @@ f=$((a - b))
 echo "sub of 2 no.s is" $f
 g=$((a / b))
 echo "div of 2 no.s is" $g
+
+if [ c < 5 ]
+then
+   echo "value is less than 5"
+else
+   echo "value is greater than 5"
+fi
