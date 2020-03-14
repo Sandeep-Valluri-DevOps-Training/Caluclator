@@ -8,8 +8,6 @@ echo "(a-b)2=" $d
 if (c > 20)
 {   
 echo "value is greater than 20"
-}
 else
-{
 echo "value is less than 20"
 }
