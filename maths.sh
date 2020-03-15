@@ -35,6 +35,3 @@ do
    echo
    y=`expr $y + 1`
 done
-
-read -p "Enter Username:" Username
-echo "User who is accessing the system is:" $Username
