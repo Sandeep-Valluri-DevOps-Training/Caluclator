@@ -14,5 +14,9 @@ else
 fi
 while read line
 do 
-echo "this is printing $line"
+if [ $line > $a ];then
+   echo "this is printing $line"
+else
+  echo "$line is not greater than $a"
+ fi
 done < number.txt
