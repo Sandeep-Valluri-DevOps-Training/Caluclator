@@ -12,3 +12,7 @@ then
 else
    echo "value is less than 20"
 fi
+while read line
+do 
+echo "this is printing $line"
+done < number.txt
