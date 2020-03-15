@@ -22,3 +22,19 @@ else
   echo "$line is not greater than $a"
 fi
 done < number.txt
+
+y=0
+while [ "$y" -lt 10 ]    # this is loop1
+do
+   z="$y"
+   while [ "$z" -ge 0 ]  # this is loop2
+   do
+      echo -n "$z "
+      z=`expr $z - 1`
+   done
+   echo
+   y=`expr $y + 1`
+done
+
+read -p "Enter Username:" Username
+echo "User who is accessing the system is:" $Username
